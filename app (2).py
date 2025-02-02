@@ -10,11 +10,11 @@ from sqlalchemy import create_engine
 
 # create db connection
 
-db_host = 'localhost'
-db_user = 'root'
-db_password = 'denil10723'
-db_name = 'transfermarkt_data'
-db_port = 3307
+db_host = ''
+db_user = ''
+db_password = ''
+db_name = ''
+db_port = ''
 
 engine = create_engine(f"mysql+mysqlconnector://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}")
 
